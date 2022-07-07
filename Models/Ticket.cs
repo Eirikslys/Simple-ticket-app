@@ -10,6 +10,9 @@ public string? Status { get; set; }
 public DateTime CreatedAt { get; set; }
 }
 
-dotnet aspnet-codegenerator controller -name TicketController -m Movie -dc
-TicketContext --relativeFolderPath Controllers
---api --referenceScriptLibraries
+// dotnet aspnet-codegenerator controller -name TicketController -m Ticket -dc
+// TicketContext --relativeFolderPath Controllers
+// --api --referenceScriptLibraries
+
+// "TicketContext": "Server=(localdb)\\mssqllocaldb;Database=;Trusted_Connection=True;MultipleActiveResultSets=true"
+// from appsettings.json, this was what was removed
