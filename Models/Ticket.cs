@@ -16,3 +16,5 @@ public DateTime CreatedAt { get; set; }
 
 // "TicketContext": "Server=(localdb)\\mssqllocaldb;Database=;Trusted_Connection=True;MultipleActiveResultSets=true"
 // from appsettings.json, this was what was removed
+
+// dotnet ef migrations add InitialCreate, To undo this action, use 'ef migrations remove'
